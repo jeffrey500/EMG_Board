@@ -39,10 +39,10 @@ Circuit Frequency Response from .01Hz to 10kHz. Note the first order 10 Hz High 
 ## Schematic
 
 ### Analog Front End
-<img src="media/Power_Sch.png" width="90%" alt="Power_Sch">
+<img src="media/AFE.png" width="90%" alt="AFE">
 
 ### Power
-<img src="media/AFE.png" width="90%" alt="AFE">
+<img src="media/Power_Sch.png" width="90%" alt="Power_Sch">
 
 ### Top Sheet
 <img src="media/Top.png" width="80%" alt="Top">
