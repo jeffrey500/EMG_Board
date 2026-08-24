@@ -1,6 +1,6 @@
 # Four Channel EMG AFE
 
-This document outlines the design and design choices for the Analog Front End of an Four Channel Electromusclegram (EMG).
+This document outlines the design and design choices for the Analog Front End of a Four Channel Electromusclegram (EMG).
 
 <img src="media/Board_3D.png" width="100%" alt="Board_3D">
 
@@ -8,7 +8,7 @@ This document outlines the design and design choices for the Analog Front End of
 
 Analog Front End:
 - INA828IDR and OPA189IDR High Precision Instrumental and Operational Amplifiers
-- Stage one 10x gain
+- Stage one 6x+ gain
 - 10 Hz High Pass Filter
 - Stage two 51x gain
 - 400 Hz Low Pass Filter
@@ -19,8 +19,8 @@ Power:
 - 5000V of electrical isolation between input and AFE (medical grade)
 - Ultra Low Noise and Ultra High Power Supply Rejection Ratio LT3094 and LT3042 Low Dropout Regulators
 
-## SPICE
-LTspice was utilized to verify the functionality of the Analog Front End. 
+## SPICE Simulation
+LTspice was utilized to verify the functionality of the Analog Front End with the first stage gain set to 10. 
 It should be noted that EMG signals range from 0-10mV peak-to-peak, 0-1.5mV RMS and have a frequency of 20-500Hz.
 Filters should be used to attenuate signals outside the EMG range.
 
