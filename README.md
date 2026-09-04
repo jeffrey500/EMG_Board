@@ -30,7 +30,7 @@ The graphs below are recorded during a basic pinch test. Both systems were set t
 <img src="media/Current_EMG_test.png" width="100%" alt="Current_EMG_test">
 
 ### Pictures
-<img src="media/hand.png" width="40%" alt="New EMG connected to hand">  <img src="media/Current_EMG.png" width=22.5%" alt="Current_EMG">    
+<img src="media/hand.png" width="40%" alt="New EMG connected to hand">  <img src="media/Current_EMG.png" width="22.5%" alt="Current_EMG">     
 
 Recording of a pinch test with new board on the left and current EMG analog front end on the right. 
 
