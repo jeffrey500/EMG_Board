@@ -1,6 +1,6 @@
 # Four-Channel EMG Analog Front End
 
-This document outlines the design for an Analog Front End of a Four Channel Electromyography (EMG) system. This board was designed for and with Dr. Robert Chen's Lab at the Krembil Research Institute and is intended to replace their current aging EMG analog front ends.
+This document outlines the design for an Analog Front End of a Four Channel Electromyography (EMG) system. This board was designed for and with [Dr. Robert Chen's Lab](https://chenneurolab.ca/) at the Krembil Research Institute and is intended to replace their current aging EMG analog front ends.
 
 <img src="media/Board_3D.png" width="100%" alt="Board_3D">
 
