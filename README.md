@@ -1,6 +1,6 @@
 # Four-Channel EMG Analog Front End
 
-This document outlines the design and design choices for the Analog Front End of a Four Channel Electromyography (EMG) system. This board was designed for Dr. Robert Chen's Lab at the Krembil Research Institute.
+This document outlines the design for an Analog Front End of a Four Channel Electromyography (EMG) system. This board was designed for and with Dr. Robert Chen's Lab at the Krembil Research Institute and is intended to replace their current aging EMG analog front ends.
 
 <img src="media/Board_3D.png" width="100%" alt="Board_3D">
 
@@ -19,6 +19,25 @@ Power:
 - Low Noise and EMI SN6505 Push-Pull Transformer Setup
 - Galvanically isolated power architecture with a 5kV rated 1:2 transformer (Wurth Elektronik 750313626) 
 - Low Noise bipolar post-regulation using the LT3042 and LT3094 regulators to attenuate switching-converter ripple and generate clean +-5V
+
+## Validation
+The graphs below are recorded during a basic pinch test. Both systems were set to 1k total gain and recorded using the same high-definition ADC. It can be seen that the new board (my board) has less noise around baseline by inspection in comparison to the currently operated system.
+
+#### New Board
+<img src="media/EMG_test.png" width="100%" alt="Board_3D">
+
+#### Current Board
+<img src="media/Current_EMG_test.png" width="100%" alt="Board_3D">
+
+### Pictures
+<img src="media/hand.png" width="40%" alt="Board_3D"> <img src="media/Current_EMG.png" width=22.5%" alt="Board_3D">    
+
+Recording of a pinch test with new board on the left and current EMG analog front end on the right. 
+
+<img src="media/Board.png" width="50%" alt="Board_3D">
+
+#### More details will be added in regard to testing and utilization.
+
 
 ## SPICE Simulation
 Surface-EMG signals are low-amplitude biopotential signals that are in the range of 0-10mV peak-to-peak and have a frequency in the hundreds of Hz range.
@@ -71,10 +90,6 @@ The top half contains the +5V net and the bottom half contains the -5V net.
 
 ### Bottom Ground
 <img src="media/Bottom_Ground.png" width="80%" alt="Bottom_Ground">
-
-## Notes
-This Github README will be updated as the design is validated with lab testing.  
-Board has already been order for assembly and is awaiting delivery.
 
 ## License
 [EMG_Board](https://github.com/jeffrey500/EMG_Board) © 2026 by [Jeffrey Zhu](https://jzhu.ca) is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
