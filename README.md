@@ -24,17 +24,17 @@ Power:
 The graphs below are recorded during a basic pinch test. Both systems were set to 1k total gain and recorded using the same high-definition ADC. It can be seen that the new board (my board) has less noise around baseline by inspection in comparison to the currently operated system.
 
 #### New Board
-<img src="media/EMG_test.png" width="100%" alt="Board_3D">
+<img src="media/EMG_test.png" width="100%" alt="EMG_test">
 
 #### Current Board
-<img src="media/Current_EMG_test.png" width="100%" alt="Board_3D">
+<img src="media/Current_EMG_test.png" width="100%" alt="Current_EMG_test">
 
 ### Pictures
-<img src="media/hand.png" width="40%" alt="Board_3D"> <img src="media/Current_EMG.png" width=22.5%" alt="Board_3D">    
+<img src="media/hand.png" width="40%" alt="New EMG connected to hand">  <img src="media/Current_EMG.png" width=22.5%" alt="Current_EMG">    
 
 Recording of a pinch test with new board on the left and current EMG analog front end on the right. 
 
-<img src="media/Board.png" width="50%" alt="Board_3D">
+<img src="media/Board.png" width="50%" alt="Board">
 
 #### More details will be added in regard to testing and utilization.
 
